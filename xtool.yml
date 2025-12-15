@@ -1,0 +1,4 @@
+version: 1
+bundleID: com.monroe.WalkFree
+infoPath: Info.plist
+iconPath: AppIcon.png

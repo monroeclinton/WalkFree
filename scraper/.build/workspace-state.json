@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "scraper",
+          "kind" : "fileSystem",
+          "location" : "/home/user/Documents/WalkFree/scraper",
+          "name" : "scraper"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/home/user/Documents/WalkFree/scraper"
+        },
+        "subpath" : "scraper"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}
