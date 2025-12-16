@@ -36,6 +36,7 @@ class LocationService: NSObject, ObservableObject, CLLocationManagerDelegate {
     locationManager.desiredAccuracy = kCLLocationAccuracyBest
     locationManager.pausesLocationUpdatesAutomatically = false
     locationManager.activityType = .fitness
+    locationManager.distanceFilter = 10.0
 
     self.authorizationStatus = locationManager.authorizationStatus
   }
