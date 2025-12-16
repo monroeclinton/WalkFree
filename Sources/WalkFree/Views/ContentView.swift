@@ -36,9 +36,6 @@ struct ContentView: View {
         .onAppear {
           handleAppear()
         }
-        .onDisappear {
-          locationService.stopContinuousLocationUpdates()
-        }
         .onChange(of: locationService.location) {
           handleLocationChange()
         }
